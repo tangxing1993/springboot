@@ -1,0 +1,8 @@
+logging:
+  pattern:
+    level: INFO 
+    
+spring:
+  test:
+    mockmvc:
+      print: NONE
