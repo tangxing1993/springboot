@@ -14,6 +14,7 @@
   <modules>
   	<module>springboot-restful</module>
   	<module>springboot-config</module>
+  	<module>springboot-template</module>
   </modules>
   
   <dependencies>
