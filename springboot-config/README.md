@@ -27,3 +27,4 @@
 2. 在通用的application.properties环境中指定开发模式application.profiles.active=开发模式
 3. 对某一接口指定开发模式，在该实现类上指定@profile(开发模式)注解
 
+
