@@ -1,0 +1,10 @@
+## 指定服务名称
+server:
+  context-path: /template
+  port: 8088
+       
+## 指定环境
+spring:
+  profiles:
+    active:
+      - dev

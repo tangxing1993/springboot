@@ -1,0 +1,20 @@
+## 指定日志的输出级别
+logging:
+  pattern:
+    level: DEBUG
+    
+## 指定thymeleaf参数
+spring:
+  thymeleaf:
+    encoding: UTF-8                 ##指定编码
+    content-type: text/html         ##指定MIME类型
+    enabled: true                   ##启用thymeleaf模版
+    cache: true                     ##使用缓存
+    prefix: classpath:/templates/   ##模版前缀
+    suffix: .html                   ##模版后缀
+    check-template-location: true   ##检查模版位置
+    check-template: true            ##检测模版
+    template-resolver-order: 1
+    
+
+    
