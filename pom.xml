@@ -15,6 +15,7 @@
   	<module>springboot-restful</module>
   	<module>springboot-config</module>
   	<module>springboot-template</module>
+  	<module>springboot-swagger2</module>
   </modules>
   
   <dependencies>
