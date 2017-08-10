@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.tang.springboot.restful.Exception.MyException;
 import org.tang.springboot.restful.entity.User;
 /**
  * 
@@ -82,6 +83,24 @@ public class UserController {
 	public String deleteUser(@PathVariable("id") Long id){
 	    users.remove(id);
 		return "success";
+	}
+	/**
+	 * 测试配置全局异常
+	 * @return
+	 * @throws Exception
+	 */
+	@GetMapping("/hello")
+	public String Hello()throws Exception {
+		throw new Exception("统一异常测试配置");
+	}
+	/**
+	 * 自定义测试json异常
+	 * @return
+	 * @throws MyException
+	 */
+	@GetMapping("/json")
+	public String HelloException()throws MyException{
+		throw new MyException("自定义异常测试json异常");
 	}
 	
 }
