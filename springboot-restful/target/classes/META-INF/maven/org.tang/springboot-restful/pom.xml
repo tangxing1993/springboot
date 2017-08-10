@@ -7,6 +7,14 @@
   </parent>
   <artifactId>springboot-restful</artifactId>
 
+  <dependencies>
+  	<!-- 添加Thymeleaf模版支持 -->
+  	<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+  </dependencies>
+
   <build>
         <plugins>
             <plugin>
