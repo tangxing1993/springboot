@@ -1,0 +1,15 @@
+##全局配置文件
+
+#日志配置
+logging:
+  pattern:
+    file: DEBUG
+
+#数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///study
+    username: root
+    password: root    
+    
