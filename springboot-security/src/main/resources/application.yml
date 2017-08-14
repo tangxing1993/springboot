@@ -1,0 +1,23 @@
+#全局属性配置文件
+
+##日志文件
+logging:
+  pattern:
+    level: DEBUG
+
+##服务配置
+server:
+  context-path: /security
+  port: 8080
+  
+##thymeleaf配置
+spring:
+  thymeleaf:
+    cache: true
+    encoding: UTF-8
+    enabled: true
+    check-template: true
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+    content-type: text/html; charset=utf-8
