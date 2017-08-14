@@ -16,6 +16,7 @@
   	<module>springboot-config</module>
   	<module>springboot-template</module>
   	<module>springboot-swagger2</module>
+  	<module>springboot-security</module>
   </modules>
   
   <dependencies>
@@ -29,5 +30,19 @@
 		<scope>test</scope>
 	</dependency>
   </dependencies>
+  
+  <build>
+  	<plugins>
+		  	<plugin>  
+            <groupId>org.apache.maven.plugins</groupId>  
+             <artifactId>maven-compiler-plugin</artifactId>  
+               <configuration>  
+                   <source>1.8</source>  
+                   <target>1.8</target>  
+                  <encoding>UTF-8</encoding>  
+               </configuration>  
+           </plugin>  
+  	</plugins>
+  </build>
 
 </project>
