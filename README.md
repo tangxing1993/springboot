@@ -8,3 +8,4 @@
 4. springboot-swagger2  使用swagger2来构建强大的restful工程
 5. springboot-security  使用springSecurity控制系统登录
 6. springboot-jdbc      使用jdbcTemplate操作数据库
+7. springboot-jpa       使用jpa来简化数据层
