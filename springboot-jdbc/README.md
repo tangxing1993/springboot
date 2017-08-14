@@ -3,14 +3,14 @@
 1. 添加maven坐标依赖
 
 ```
-  	<dependency>
+<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-jdbc</artifactId>
-	</dependency>
-	<dependency>
+</dependency>
+<dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-	</dependency>
+</dependency>
 ```
 
 2. 创建数据库和配置数据库连接,数据库脚本jdbc.sql,数据库连接在application.yml文件内

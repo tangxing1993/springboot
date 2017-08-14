@@ -2,7 +2,7 @@
 
 1. 导入Swagger2的依赖坐标
 
-`
+```
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-swagger2</artifactId>
@@ -13,7 +13,7 @@
     <artifactId>springfox-swagger-ui</artifactId>
     <version>2.2.2</version>
 </dependency>
-`
+```
 
 2. 创建Swagger的配置类(org.tang.springboot.swagger2.config.SwaggerConfig)
 	

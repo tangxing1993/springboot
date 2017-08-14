@@ -21,11 +21,13 @@
 
 - 引入thymeleaf的坐标文件
 
-` <dependency>
+``` 
+<dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-thymeleaf</artifactId>
-  </dependency>
-`
+ </dependency>
+```
+
 - localhost:8088/template/  测试Thymeleaf模版文件
 - 如果访问模版报错 org.xml.sax.SAXException: Scanner State 24 not Recognized,去掉模版头部的<!DOCTYPE>
 - Thymeleaf的springboot配置见application-dev.yml

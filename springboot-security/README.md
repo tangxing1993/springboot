@@ -1,20 +1,21 @@
 # 使用springSecurity做权限控制
 
 1. 配置SpringSecurity的maven依赖文件
-`
+
+```
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
 </dependency>
-`
+```
 2. 添加thymeleaf模版依赖
 
-`
+```
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
-`
+```
 3. 编写Springboot的Security的配置类(参考org.tang.springboot.security.config.WebSecurityConfig)
 	
 	- 该类继承WebSecurityConfigurerAdapter,重写配置方法
