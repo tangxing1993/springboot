@@ -19,6 +19,7 @@
   	<module>springboot-security</module>
   	<module>springboot-jdbc</module>
   	<module>springboot-jpa</module>
+  	<module>springboot-multi-datasource</module>
   </modules>
   <!-- 公用的依赖模块 -->
   <dependencies>
