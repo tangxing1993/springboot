@@ -11,3 +11,4 @@
 6. springboot-jdbc      			使用jdbcTemplate操作数据库
 7. springboot-jpa       			使用jpa来简化数据层
 8. springboot-multi-datasource		多数据源的配置
+9. springboot-redis					使用nosql数据库redis
