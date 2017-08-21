@@ -20,6 +20,7 @@
   	<module>springboot-jdbc</module>
   	<module>springboot-jpa</module>
   	<module>springboot-multi-datasource</module>
+  	<module>springboot-redis</module>
   </modules>
   <!-- 公用的依赖模块 -->
   <dependencies>
@@ -28,6 +29,7 @@
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     
+    <!-- TEST -->
  	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-test</artifactId>
@@ -47,7 +49,12 @@
                    <target>1.8</target>  
                   <encoding>UTF-8</encoding>  
                </configuration>  
-           </plugin>  
+           </plugin>
+           <!-- springboot-maven插件  -->
+           <plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>  
   	</plugins>
   </build>
 
