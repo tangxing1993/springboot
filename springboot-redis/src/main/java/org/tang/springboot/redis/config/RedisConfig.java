@@ -8,7 +8,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.tang.springboot.redis.entity.User;
 
-import com.fasterxml.jackson.databind.ser.std.StringSerializer;
 
 /**
  * @author 唐兴
