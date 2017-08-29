@@ -1,0 +1,18 @@
+#全局资源配置
+logging:
+  pattern:
+    level: DEBUG
+    
+#数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///study
+    username: root
+    password: root
+
+##mybatis配置
+mybatis:
+  config-location: classpath:mybatis-config.xml
+
+
