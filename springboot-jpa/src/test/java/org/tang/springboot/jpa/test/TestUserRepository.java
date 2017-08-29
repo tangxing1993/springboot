@@ -1,5 +1,7 @@
 package org.tang.springboot.jpa.test;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,11 @@ public class TestUserRepository {
 		user.setName("唐兴");
 		user.setAge(24);
 		repository.save(user);
+	}
+	@Test
+	public void findOne() {
+		assertEquals(new Integer(24), repository.findUserByName("唐兴").getAge());
+		assertEquals(new Integer(24), repository.findUserByName("唐兴").getAge());
 	}
 	
 }

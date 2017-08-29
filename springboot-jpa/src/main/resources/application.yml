@@ -13,3 +13,9 @@ spring:
     username: root
     password: root    
     
+    
+## springjpa配置 (开启sql语句的打印)
+  jpa:
+    properties:
+      hibernate.show_sql: true
+    

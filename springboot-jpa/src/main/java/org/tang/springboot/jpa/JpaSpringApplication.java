@@ -2,6 +2,7 @@ package org.tang.springboot.jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author 唐兴
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @desc  springboot的启动程序
  */
 @SpringBootApplication
+@EnableCaching  //开启缓存功能
 public class JpaSpringApplication {
 
 	public static void main(String[] args) throws Exception {
