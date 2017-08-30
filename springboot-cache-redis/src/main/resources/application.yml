@@ -1,0 +1,28 @@
+# 全局配置文件
+#服务器
+server:
+  context-path: /cache
+  port: 80
+#日志配置
+logging:
+  pattern:
+    level: DEBUG
+#jpa配置
+spring:
+  jpa:
+    show-sql: true
+#数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver 
+    url: jdbc:mysql:///study
+    username: root
+    password: root
+#redis配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1
