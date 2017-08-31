@@ -1,0 +1,8 @@
+# 全局配置文件
+# 日志配置在logbak-spring.xml中配置
+
+#AOP配置
+spring:
+  aop:
+    auto: true                 ##开启AspectJ
+    proxy-target-class: true   ##使用CGLIB代理目标类
