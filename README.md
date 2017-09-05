@@ -14,4 +14,7 @@
 9.  springboot-redis				使用nosql数据库redis
 10. springboot-mongodb 				使用nosql数据库mongodb
 11. springboot-mybatis				springboot整合mybatis
+12. springboot-cache-redis			springboot使用redis做集中式缓存
+13. springboot-logging				springboot使用AOP做切面日志
+14. springboot-rabbitmq				springboot集成amqp和定时任务
 

@@ -23,6 +23,9 @@
   	<module>springboot-redis</module>
   	<module>springboot-mongodb</module>
   	<module>springboot-mybatis</module>
+  	<module>springboot-cache-redis</module>
+  	<module>org.tang.springboot.logging</module>
+  	<module>springboot-rabbitmq</module>
   </modules>
   <!-- 公用的依赖模块 -->
   <dependencies>
