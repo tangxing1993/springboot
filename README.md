@@ -17,4 +17,6 @@
 12. springboot-cache-redis			springboot使用redis做集中式缓存
 13. springboot-logging				springboot使用AOP做切面日志
 14. springboot-rabbitmq				springboot集成amqp和定时任务
+15. springboot-actuator				springboot集成actuator监控程序
+16. springboot-async                使用@Async实现异步调用
 
