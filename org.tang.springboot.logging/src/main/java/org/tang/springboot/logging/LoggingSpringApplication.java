@@ -21,5 +21,4 @@ public class LoggingSpringApplication {
 		logger.debug("------------>>>>>{}","日志项目成功启动");
 	}
 
-	
 }

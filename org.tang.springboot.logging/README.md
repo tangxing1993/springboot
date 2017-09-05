@@ -8,7 +8,6 @@
 		<artifactId>spring-boot-starter-aop</artifactId>
   </dependency>
 ```
-
 2. 使用logbak-spring.xml配置日志的输出
 3. 在application.yml中开启AOP配置
 4. 创建无侵入的日志记录方法,创建切入面webLogAspect使用Aspect定义切入面
