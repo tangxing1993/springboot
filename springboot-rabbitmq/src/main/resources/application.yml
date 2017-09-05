@@ -1,0 +1,13 @@
+# 全局配置文件
+# 日志配置在logbak-spring.xml中配置
+
+# 配置RabbitMq服务
+
+spring:
+  application:
+    name: rabbitmq-hello
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: spring
+    password: 123456
