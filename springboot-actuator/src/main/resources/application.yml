@@ -1,0 +1,6 @@
+# 全局配置文件
+
+# 关闭敏感信息验证
+management:
+  security:
+    enabled: false
