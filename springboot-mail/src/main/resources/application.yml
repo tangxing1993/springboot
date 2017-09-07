@@ -1,0 +1,12 @@
+# 全局配置
+
+# 邮件信息配置
+spring:
+  mail:
+    host: 邮件服务器地址
+    username: 邮箱用户名
+    password: 邮箱密码
+    properties:
+      mail.smtp.auth: true
+      smtp.starttls.enable: true
+      smtp.starttls.required: true
