@@ -19,4 +19,5 @@
 14. springboot-rabbitmq				springboot集成amqp和定时任务
 15. springboot-actuator				springboot集成actuator监控程序
 16. springboot-async                使用@Async实现异步调用
+17. springboot-mail                 springboot集成邮件功能
 

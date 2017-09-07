@@ -28,6 +28,7 @@
   	<module>springboot-rabbitmq</module>
   	<module>springboot-actuator</module>
   	<module>Springboot-async</module>
+  	<module>springboot-mail</module>
   </modules>
   <!-- 公用的依赖模块 -->
   <dependencies>
